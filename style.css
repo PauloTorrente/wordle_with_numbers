@@ -1,0 +1,61 @@
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.numero {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tentativas {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    font-size: 20px;
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    width: 40px;
+}
+
+.bloco {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.conteudodacaixa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.verde {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.amarelo {
+    background-color: #FFFF00;
+}
+
+.vermelho {
+    background-color: #FF0000;
+    color: white;
+}
